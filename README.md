@@ -171,11 +171,19 @@ Objetivo: Implementar o algoritmo das Árvores B+
 
 ## Árvores B+
 
-Implementação:
+Arquivos:
 
 - main.c
 - arvore_b_mais.h
 - arvore_b_mais.c
+
+Operações:
+
+- `criar_arvore_b_mais()`
+- `inserir_b_mais()`
+- `buscar_b_mais()`
+- `remover_b_mais()`
+- `imprimir_arvore_b_mais()`
 
 ```c
 
