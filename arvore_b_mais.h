@@ -39,4 +39,16 @@ typedef struct {
 // Cria a arvore B+ utilizando os funcionarios existentes na base
 void criar_arvore_b_mais(FILE *arq_base, int nFunc);
 
+// Insere um funcionario na arvore B+
+void inserir_b_mais();
+
+// Busca um funcionario pelo codigo
+void buscar_b_mais();
+
+// Remove um funcionario pelo codigo
+void remover_b_mais();
+
+// Imprime a estrutura da arvore B+
+void imprimir_arvore_b_mais();
+
 #endif // Encerra a protecao contra inclusao multipla
