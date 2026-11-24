@@ -26,7 +26,7 @@ void criar_arvore_b_mais(FILE *arq_base, int nFunc) {
     // Verifica se todos os arquivos foram abertos corretamente
     if (arq_meta == NULL || arq_indice == NULL || arq_dados == NULL) {
         printf("Erro ao abrir os arquivos da Arvore B+.\n");
-        // Fecha os arquivos que foram abertos com sucesso
+        // Fecha os arquivos que foram abertos
         if (arq_meta != NULL)
             fclose(arq_meta);
         if (arq_indice != NULL)
