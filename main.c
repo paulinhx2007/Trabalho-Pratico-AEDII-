@@ -12,6 +12,7 @@
 #include "particoes.h"
 #include "intercalacao.h"
 #include "arvore_binaria.h"
+#include "arvore_b_mais.h"
 
 int menu(){
     int op;
