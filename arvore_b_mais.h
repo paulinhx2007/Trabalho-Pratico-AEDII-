@@ -29,5 +29,5 @@ typedef struct {
 } TNoDados;
 
 // Função principal para criar a árvore 
-void criar_arvore_bmais_da_base(FILE *arq_base, int nFunc);
+void criar_arvore_b_mais(FILE *arq_base, int nFunc);
 
