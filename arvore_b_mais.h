@@ -1,4 +1,3 @@
-
 #ifndef ARVORE_B_MAIS_H       // Verifica se este arquivo ainda nao foi incluido
 #define ARVORE_B_MAIS_H       // Define a protecao contra inclusao duplicada
 
