@@ -28,6 +28,6 @@ typedef struct {
     TFunc registros[20];      // Registros completos
 } TNoDados;
 
-// Função principal para criar a árvore a partir da base
+// Função principal para criar a árvore 
 void criar_arvore_bmais_da_base(FILE *arq_base, int nFunc);
 
