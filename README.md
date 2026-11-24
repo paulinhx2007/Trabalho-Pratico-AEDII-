@@ -174,7 +174,7 @@ Objetivo: Implementar o algoritmo das Árvores B+
 Implementação:
 
 - main.c
-- arvore_b_mais.h
+- arvore_b_mais.c
 - arvore_b_mais.h
 
 ```c
