@@ -24,10 +24,8 @@ typedef struct {
     int folha;             // 1 se os filhos forem folhas; 0 se forem nos internos
     long pai;              // Offset do no pai no arquivo de indice
     long p0;               // Ponteiro para o primeiro filho do no
-
     char chaves[MAX_CHAVES_B_MAIS][TAM_SEPARADOR]; // Armazena ate 6 separadores textuais
     long ponteiros[MAX_CHAVES_B_MAIS];            // Ponteiros para os demais filhos (p1 ate p6)
-
 } TNoIndice;               // Nome da estrutura dos nos internos
 
 // Estrutura dos nos folhas, que armazenam os registros completos
@@ -35,9 +33,7 @@ typedef struct {
     int m;                 // Quantidade atual de funcionarios armazenados na folha
     long pai;              // Offset do no pai no arquivo de indice
     long prox;             // Offset da proxima folha; -1 se nao existir
-
     TFunc registros[MAX_CHAVES_B_MAIS]; // Vetor com capacidade para ate 6 funcionarios
-
 } TNoDados;                // Nome da estrutura dos nos folhas
 
 // Cria a arvore B+ utilizando os funcionarios existentes na base
