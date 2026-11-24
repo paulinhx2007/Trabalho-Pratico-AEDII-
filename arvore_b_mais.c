@@ -64,14 +64,15 @@ void criar_arvore_b_mais(FILE *arq_base, int nFunc) {
     fechar_arquivos_b_mais(arq_meta, arq_indice, arq_dados);
 }
 
-// Insere um funcionario na arvore B+
-void inserir_b_mais()
+// Insercao de funcionarios
+void inserir_b_mais() 
 
-// Busca um funcionario pelo codigo
-void buscar_b_mais();
+// Busca de funcionarios
+void buscar_b_mais() 
 
-// Remove um funcionario pelo codigo
-void remover_b_mais();
+// Remocao de funcionarios
+void remover_b_mais() {
+}
 
-// Imprime a estrutura da arvore B+
-void imprimir_arvore_b_mais();
+// Impressao da arvore
+void imprimir_arvore_b_mais() 
